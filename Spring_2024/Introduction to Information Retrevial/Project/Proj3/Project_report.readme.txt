@@ -1,0 +1,20 @@
+The system is designed for information retrieval using the Vector Space Model (VSM) and Cosine Similarity. Key design elements include:
+
+Text Preprocessing: Removes punctuation, converts text to lowercase, and tokenizes it. Common stop words are also removed to reduce noise.
+
+Term Weighting and Normalization:
+- Term Frequency (TF): Measures term relevance within a query or document.
+- Inverse Document Frequency (IDF): Measures term rarity across the entire document collection.
+- TF-IDF: Combines TF and IDF to measure local and global relevance.
+
+Data Structures/Classes:
+- `calculate_tf(terms)`: Computes and normalizes TF for a term list.
+- `calculate_idf(documents)`: Calculates IDF for a document set.
+- `calculate_tfidf(tf, idf)`: Computes TF-IDF weights for a query or document.
+- `calculate_cosine_similarity(vector1, vector2)`: Calculates cosine similarity between query or document vectors.
+
+Query Settings: Considers various query settings like primary query (title), description + title, and narrative + title. Utilizes VSM and cosine similarity to analyze queries and retrieve relevant documents, ranked by cosine similarity and saved for future use.
+
+System Performance Evaluation: Assesses performance using metrics such as precision and recall. Precision gauges relevance of retrieved documents, while recall measures coverage of relevant materials. Other metrics like F1-score, MAP, and NDCG can also be used. Evaluations may involve tweaking weighting and normalization systems (e.g., TF-IDF variants, BM25) to optimize for the dataset and retrieval task.
+
+Note: I am using python technology to develop this project from scratch.

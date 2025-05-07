@@ -1,0 +1,13 @@
+Version 1.0 Project Phase - 1
+To run the project run the "TextParserIndexer.java". I have used intelliJ Idea for developing this project.
+
+Note:
+1.just, i have changed the ft911 files extension to .txt for all files.
+
+Version - 2.0 Project Phase - 2
+To run the project run the "TextParserIndexer.java". I have used intelliJ Idea for developing this project.
+Output is shown in the "inverted_index.txt" file.
+Note:
+1. Just, i have changed the ft911 files extension to .txt for all files.
+2. I have wrote the code indexer, in the previous file combined with textparser file now named as "TextParserIndexer.java"
+
